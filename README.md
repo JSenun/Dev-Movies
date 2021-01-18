@@ -6,4 +6,4 @@ O Dev Movies é um dos meus projetos pessoais para aplicar meus conhecimentos em
 
 <h2 align="center">Gifs e Imagens</h2>  
 
-![](C:\Users\Márcia\Desktop\João\devMovie\devMovie.gif)
+![](https://github.com/JSenun/Dev-Movies/blob/master/devMovie.gif)
