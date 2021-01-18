@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Movies</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body>
+    <header>
+        <div></div>
+        <h1><a href="index.html">Dev Movies</a></h1>
+        <nav>
+            <ul>
+                <li><a id="sec-1" href="#one">Planos</a></li>
+                <li><a id="sec-2" href="#two">Filmes</a></li>
+            </ul>
+        </nav>
+        <p class="login"><a href="login.html">Login</a></p>
+    </header>
+    <main>
+        <div class="banner">
+            <div>
+                <img class="img-banner"
+                    src="https://images.pexels.com/photos/436413/pexels-photo-436413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+            </div>
+            <h2 class="banner-title">Assista seus filmes favoritos quando e onde quiser!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab odio fugiat cumque, nemo suscipit id ad at
+                labore
+                voluptas placeat hic optio aliquid perferendis saepe eum eveniet nostrum sequi culpa. Lorem ipsum dolor
+                sit
+                amet consectetur adipisicing elit. Fugit temporibus odio, facere dicta, molestias cum dolorem totam</p>
+            <button>Assine Já!</button>
+        </div>
+        <div id="one" class="planos">
+            <h2 class="titulo-planos">Conheça os nossos planos!</h2>
+            <ul>
+                <li class="planos-itens planos-legenda">
+                    <span></span>
+                    <ul>
+                        <li>Resolução</li>
+                        <li>Telas simultâneas</li>
+                        <li>Assista em qualquer dispositivo</li>
+                        <li>Filmes e séries ilimitados</li>
+                        <li>Preço por mês</li>
+                    </ul>
+                </li>
+                <li class="planos-itens">
+                    <div>
+                        <input type="radio" name="planos" id="basico">
+                        <label for="basico">
+                            <h3>Básico</h3>
+                            <ul>
+                                <li>720p</li>
+                                <li>2</li>
+                                <li>&#x2713</li>
+                                <li>&#x2713</li>
+                                <li>$$$</li>
+                            </ul>
+                        </label>
+                    </div>
+                </li>
+                <li class="planos-itens">
+                    <div>
+                        <input type="radio" name="planos" id="padrao">
+                        <label for="padrao">
+                            <h3>Padrão</h3>
+                            <ul>
+                                <li>1080p</li>
+                                <li>3</li>
+                                <li>&#x2713</li>
+                                <li>&#x2713</li>
+                                <li>$$$$</li>
+                            </ul>
+                        </label>
+                    </div>
+                </li>
+                <li class="planos-itens">
+                    <div>
+                        <input type="radio" name="planos" id="premium" checked>
+                        <label for="premium">
+                            <h3>Premium</h3>
+                            <ul>
+                                <li>4K + HDR</li>
+                                <li>4</li>
+                                <li>&#x2713</li>
+                                <li>&#x2713</li>
+                                <li>$$$$$</li>
+                            </ul>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+            <button id="planosButton"></button>
+        </div>
+        <div id="two" class="movie-slider">
+            <h2>Filmes</h2>
+            <div class="posters">
+                <img src="./imgs/black-panther-web.jpg" alt="Poster Pantera Negra">
+            </div>
+            <div class="posters">
+                <img src="./imgs/lord-of-rings.jpg" alt="Poster Senhor dos Anéis">
+            </div>
+            <div class="posters">
+                <img src="./imgs/star-is-born-web.jpg" alt="Poster Nasce uma Estrela">
+            </div>
+            <div class="posters">
+                <img src="./imgs/Halloween-2018-teaser-poster-Blumhouse.jpg" alt="Poster Halloween">
+            </div>
+
+            <a class="prev" onclick="passaSlides(-1)">&#10094;</a>
+            <a class="next" onclick="passaSlides(1)">&#10095;</a>
+        </div>
+    </main>
+    <footer>
+        <h1><a href="index.html">Dev Movies</a></h1>
+        <p>Desenvolvido por João Nunes - 2021</p>
+        <ul class="redes-sociais">
+            <li><a target="_blank" rel="noopener noreferrer"
+                    href="https://br.linkedin.com/public-profile/in/jo%C3%A3o-victor-nunes-da-silva-9b9b311ba?challengeId=AQHwBsBAR2nMjAAAAXcWKXxzNLroiZfyXspxAod-b54g48qS6Q74BGPhwEnMQRUXPlwvPWn6RR3XlDVDgnHVHK72DGln34IDsw&submissionId=a839d279-ea5d-5b16-ac72-b64170268371"><img
+                        src="./imgs/linkedin.png" alt="Ícone do LinkedIn"></a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/JSenun"><img
+                        src="./imgs/placa-do-github.png" alt="Ícone do Github"></a>
+            </li>
+        </ul>
+    </footer>
+    <script src="./js/index.js"></script>
+    <script src="./js/posterSlide.js"></script>
+</body>
+
+</html>

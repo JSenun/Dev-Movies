@@ -1,0 +1,235 @@
+body {
+  background-color: #0b090af3;
+  font-size: 1.2em; }
+
+header div {
+  background-color: #161a1d;
+  width: 100%;
+  height: 10em;
+  opacity: 100%;
+  border-bottom: 3px solid #e5383b; }
+
+header h1 > a {
+  text-decoration: none;
+  position: absolute;
+  left: 0.6em;
+  top: 0.8em;
+  color: #910b0d;
+  font-family: "Teko", sans-serif;
+  font-size: 4em;
+  font-weight: 600; }
+
+.login a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #ba181b;
+  position: absolute;
+  top: 2%;
+  right: 1%; }
+
+nav {
+  position: absolute;
+  top: 4.7em;
+  right: 7em; }
+
+nav li {
+  display: inline-block; }
+
+nav li a {
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 1.8em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #aa0508c9; }
+
+nav li a:hover {
+  color: #aa0508;
+  cursor: pointer; }
+
+.banner div {
+  height: 24em;
+  opacity: 15%; }
+
+.img-banner {
+  width: 100%;
+  height: 100%; }
+
+.banner-title {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 45%;
+  font-family: "Teko", sans-serif;
+  color: #F5F3F4;
+  font-size: 4em; }
+
+.banner p {
+  width: 35%;
+  position: absolute;
+  top: 60%;
+  right: 10%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: #F5F3F4; }
+
+.banner button {
+  position: absolute;
+  top: 82%;
+  right: 23%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7em;
+  background-color: #910b0dc7;
+  color: #F5F3F4; }
+
+.banner button:hover {
+  background-color: #910b0d;
+  font-weight: 500;
+  cursor: pointer; }
+
+.planos {
+  width: 100%;
+  background-color: #F5F3F4;
+  text-align: center;
+  font-family: "Roboto", sans-serif; }
+
+.titulo-planos {
+  padding: 40px 0px 30px 0;
+  font-size: 4em;
+  font-family: "Teko", sans-serif;
+  color: #A4161A; }
+
+.planos-itens {
+  display: inline-block;
+  flex-direction: column;
+  width: 20%;
+  margin: 40px 0px; }
+
+.planos-itens h3 {
+  background-color: #e5383b;
+  color: #FFFFFF;
+  font-size: 1.2em;
+  padding: 10px 0px; }
+
+.planos-itens li {
+  padding: 20px 5px; }
+
+.planos-legenda {
+  text-align: left;
+  width: 22%; }
+
+.planos-legenda li {
+  padding: 18.3px 5px; }
+
+.planos-itens li:nth-child(5n) {
+  color: #d12124;
+  font-size: 1.3em;
+  font-weight: 600; }
+
+.planos-itens input {
+  display: none; }
+
+#planosButton {
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5em;
+  background-color: #e9292cc2;
+  color: white;
+  padding: 10px 25px;
+  margin: 20px auto; }
+
+#planosButton:hover {
+  background-color: #e9292c; }
+
+.borda {
+  border: 2px solid #e5383b; }
+
+.movie-slider {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  margin: 0 auto; }
+
+.movie-slider h2 {
+  padding: 28px 0px 15px 0px;
+  font-size: 4em;
+  font-family: "Teko", sans-serif;
+  color: #A4161A; }
+
+.posters {
+  display: none; }
+
+.posters img {
+  padding: 10px 0px;
+  width: 30%;
+  height: 515px;
+  margin-bottom: 5px; }
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none; }
+
+.prev {
+  left: 30%;
+  border-radius: 3px 0 0 3px; }
+
+.next {
+  right: 30%;
+  border-radius: 3px 0 0 3px; }
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.747); }
+
+footer {
+  background-color: #1d2225;
+  width: 100%;
+  height: 10em;
+  border-top: 3px solid #e5383b; }
+
+footer p {
+  position: absolute;
+  left: 40%;
+  bottom: -75.5em;
+  font-family: "Roboto", sans-serif;
+  color: white; }
+
+.redes-sociais {
+  margin-top: 70px;
+  margin-left: 90%; }
+
+.redes-sociais li {
+  display: inline;
+  padding: 0px 10px; }
+
+.redes-sociais li img {
+  width: 30%;
+  color: black; }
+
+.redes-sociais li img:hover {
+  width: 32%; }
+
+footer h1 > a {
+  text-decoration: none;
+  position: absolute;
+  left: 0.4em;
+  bottom: -25.5em;
+  color: #910b0d;
+  font-family: "Teko", sans-serif;
+  font-size: 3em;
+  font-weight: 600; }
+
+/*# sourceMappingURL=app.css.map */
